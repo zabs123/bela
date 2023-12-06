@@ -1,0 +1,55 @@
+
+HTML:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Exemplo de uso do Flexbox">
+  <meta name="keywords" content="Flexbox, CSS, layout flexível">
+  <meta name="author" content="Seu Nome">
+  <title>Exemplo Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="flex-container">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+
+</body>
+</html>
+
+CSS (styles.css):
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.flex-item {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+}
