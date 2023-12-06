@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descubra lugares turísticos encantadores na Europa.">
+  <meta name="keywords" content="Europa, turismo, viagem">
+  <meta name="author" content="Seu Nome">
+  <title>Lugares Turísticos na Europa</title>
+</head>
+<body>
+
+  <header>
+    <h1>Explore a Europa: Destinos Turísticos Inesquecíveis</h1>
+    <p>Descubra a riqueza cultural e beleza dos destinos mais incríveis da Europa.</p>
+  </header>
+
+  <section id="destino1">
+    <img src="paris.jpg" alt="Torre Eiffel em Paris">
+    <h2>Paris, França</h2>
+    <p>Conheça a cidade do amor, com suas ruas charmosas e a icônica Torre Eiffel.</p>
+    <a href="paris.html">Saiba mais</a>
+  </section>
+
+  <section id="destino2">
+    <img src="santorini.jpg" alt="Vista de Santorini, Grécia">
+    <h2>Santorini, Grécia</h2>
+    <p>Explore as deslumbrantes paisagens de Santorini, com suas casas brancas e vistas deslumbrantes do mar Egeu.</p>
+    <a href="santorini.html">Saiba mais</a>
+  </section>
+
+  <section id="destino3">
+    <img src="roma.jpg" alt="Coliseu em Roma">
+    <h2>Roma, Itália</h2>
+    <p>Descubra a história fascinante de Roma, desde o Coliseu até o Vaticano, mergulhando na cultura italiana.</p>
+    <a href="roma.html">Saiba mais</a>
+  </section>
+
+  <footer>
+    <p>© 2023 Lugares Turísticos na Europa. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
